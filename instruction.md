@@ -25,6 +25,7 @@ First of all you have to execute the following global config commands, so enter:
 *   1. **Warning! Save the file.**
 *   2. **git add** for add a new commit
 *   3. **git commit -m <_text_>** for add a massage of the commit
+*   **git commit --amend -m <_new text_>** for edit commit
 *   **git diff** for know the differences of the versions
 *   **git log** of you need know the history of differences
 *   **git checkout** version_number
