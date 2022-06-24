@@ -2,11 +2,13 @@
 
 ## Markdown language
 
--   **using **test** to the bold font**
+-   **using ** text ** to the bold font**
 
--   *using *text* to the italic font*
-
+-   _using _ text _ to the italic font_
 -   using "#" or ##" to the header styles
+
+*   ~~using ~~ Text ~~ for a strikethrough font~~
+*   For using that fonts dont't put any space between font's simbols and text: ^some text^, where ^ is font's simbol
 
 -   using "\*" to the unnamed lists
 
