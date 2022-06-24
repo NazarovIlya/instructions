@@ -1,16 +1,16 @@
-# Insruction of using Git & Markdown language
+# Instruction of using Git & Markdown language
 
-## Markdown language
+## Markdown language & Git console commands
 
 -   **using ** text ** to the bold font**
 
--   _using _ text _ to the italic font_
--   using "#" or ##" to the header styles
+-   _using _ text _ for the italic font_
+-   using "#" or ##" for the header styles
 
 *   ~~using ~~ Text ~~ for a strikethrough font~~
 *   For using that fonts dont't put any space between font's simbols and text: ^some text^, where ^ is font's simbol
 
--   using "\*" to the unnamed lists
+-   using "\*" for the unnamed lists
 
 *   using 1, 2, 3 ect for the named lists
 
