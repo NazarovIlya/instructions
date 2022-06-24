@@ -14,7 +14,7 @@
 
 *   using 1, 2, 3 ect for the named lists
 
-## Commands of Git
+## Basic Git's commands
 
 First of all you have to execute the following global config commands, so enter:
 
@@ -26,7 +26,8 @@ First of all you have to execute the following global config commands, so enter:
 
 *   1. **Warning! Save the file.**
 *   2. **git add** for add a new commit
-*   3. **git commit -m <_text_>** for add a massage of the commit
+*   3. **git commit -m <_comment_>** for add a massage of the commit
+*   **git commit -am <_comment_>**
 *   **git commit --amend -m <_new text_>** for edit commit
 *   **git diff** for know the differences of the versions
 *   **git log** of you need know the history of differences
@@ -34,3 +35,10 @@ First of all you have to execute the following global config commands, so enter:
 *   **git chechout master** return to the working commit
 *   **git status** if you need know the status of Git
 *   **git --version** for find out of the version of the Git program
+
+# Several Global commands
+
+-   git config --global user.name
+-   git config --global user.email
+-   git config --global --replace-all user.name "UserName"
+-   git config --global --replace-all user.name "UserName"
