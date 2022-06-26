@@ -14,6 +14,8 @@
 
 **_Also see [guide for Markdown](https://docs.microsoft.com/ru-ru/contribute/markdown-reference)_**
 
+![logo](resource\git.jpg)
+
 ## Git's commands
 
 First of all you have to execute the following global config commands, so enter:
