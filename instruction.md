@@ -16,7 +16,7 @@
 
 *   using 1, 2, 3 ect for the named lists
 
-![logo](https://cdn.filestackcontent.com/6yJPbkQ4SnybLJPKPLXP)
+![logo](resource\git.jpg)
 
 ## Git's commands
 
