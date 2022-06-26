@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 ..\resource
+=======
+resource\
+>>>>>>> lists
 ..\resource\md.png;
 ..\resource\git.jpg
