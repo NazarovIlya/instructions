@@ -2,7 +2,7 @@
 
 # Instruction of using Git & Markdown language
 
-## Markdown language & Git console commands
+## Markdown language syntax
 
 -   **using ** text ** to the bold font**
 
@@ -18,34 +18,44 @@
 
 ![logo](https://cdn.filestackcontent.com/6yJPbkQ4SnybLJPKPLXP)
 
-## Basic Git's commands
+## Git's commands
+
+### In the beginning some basic commands
 
 First of all you have to execute the following global config commands, so enter:
 
 1. **git config --global user.name "user's name"** for register in Git under your name
-2. **git config --global user.email <user's_email@example.com>** for register in Git your email
+2. **git config --global user.email <user's_email@example.com>** to register in Git your email
 
 -   Enter following commands:
--   **git init** for initialization tracking in the required directory
+-   **git init** to initializing the local repository and tracking its files (you will have to enter _git add_ for start tracking each new file)
 
-*   1. **Warning! Save the file.**
-*   2. **git add** for add a new commit
-*   3. **git commit -m <_comment_>** for adding a massage of the new commit
-*   **git add.** for adding all files
-*   **git commit -am <_comment_>**
-*   **git commit --amend -m <_new commit_>** for edit commit
-*   **git diff** for know the differences of the versions
-*   **git log** of you need know the history of differences
-*   **git checkout** version_number
-*   **git checkout master** return to the working commit
-*   **git status** if you need know the status of Git
-*   **git --version** for find out of the version of the Git program
+### Basic commands
 
-# Several Global commands
+-   1. **Warning! Save the file.**
+-   2. **git add** to add a new commit
+-   3. **git commit -m <_comment_>** to create a new commit with massage of it
+-   **git commit -am <_comment_>** to add changes and create a new commit with massage of it
+-   **git add.** for adding all files
+-   **git commit --amend -m <_new commit_>** to edit commit
+
+### Some useful commands
+
+-   **git diff** to find out the difference between the current file and the committed file
+-   **git log** to display the history of all commits with their hash codes
+-   **git status** to get information from git about its current state
+-   **git --version** to get information from git about its current version
+
+### Branches
+
+-   **git checkout** version_number
+-   **git checkout master** return to the working commit
+
+## Several Global commands
 
 ### Enter:
 
--   **git config --global user.name "UserName"** for register in Git under your name
--   **git config --global user.email "UserEmail"** for register in Git your email
--   **git config --global --replace-all user.name "UserName"** for replace user's name
--   **git config --global --replace-all user.email "UserEmail"** for replace user's email
+-   **git config --global user.name "UserName"** to register in Git under your name
+-   **git config --global user.email "UserEmail"** to register in Git your email
+-   **git config --global --replace-all user.name "UserName"** to replace user's name
+-   **git config --global --replace-all user.email "UserEmail"** to replace user's email
