@@ -6,7 +6,29 @@
 
 ### Titles
 
-Using "#"
+# title 1
+
+Using "#" for title of 1 level
+
+## title 2
+
+Using "##" for title of 2 level
+
+### title 3
+
+Using "###" for title of 3 level
+
+#### title 4
+
+Using "####" for title of 4 level
+
+##### title 5
+
+Using "#####" for title of 5 level
+
+###### title 6
+
+Using "######" for title of 6 level
 
 ### Text
 
