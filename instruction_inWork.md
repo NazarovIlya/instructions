@@ -4,7 +4,16 @@
 
 ## Markdown language syntax
 
+### Titles
+
+Using "#"
+
 ### Text
+
+-   Using ** or \_\_ for the **bold font\*\*
+-   Using * or \_ for the *italic font\*
+-   Using \~\~ for a ~~strikethrough font~~
+-   For using that fonts dont't put any space between font's simbols (\*, \_) and text: ^some text^, where ^ is font's simbol
 
 ### Lists
 
