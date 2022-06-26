@@ -13,6 +13,9 @@ Using "#"
 -   Using ** or \_\_ for the **bold font\*\*
 -   Using * or \_ for the *italic font\*
 -   Using \~\~ for a ~~strikethrough font~~
+
+*   Using \*\*\* or \*\*\_ for the **_bold strikethrough font_**
+
 -   For using that fonts dont't put any space between font's simbols (\*, \_) and text: ^some text^, where ^ is font's simbol
 
 ### Lists
