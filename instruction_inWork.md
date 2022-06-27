@@ -45,31 +45,31 @@ Using "######" for title of 6 level
 Use - or \* to create a buletted list:
 
 -   This is a parent list
--   element 1
+-   parent bulleted list item 1
     -   this is nested list of first level
-    -   element 1
-    -   element 2
+    -   nested list of first level item 1
+    -   nested list of first level item 2
         -   this is nested list of second level
-        -   element 1
-        -   element 2
-    -   element 3
-    -   element 4
--   element 2
+        -   nested list of second level item 1
+        -   nested list of second level item 2
+    -   nested list of first level item 3
+    -   nested list of first level item 4
+-   parent list item 1
 -   the end of bulleted list
 
     Use numbers (1, 2, 3, ect) to create numbered list:
 
-1. This is a parent list
+1. This is a parent numbered list
     1. this is nested list of first level
-    2. element 1
-    3. element 2
+    2. list of first level item 1
+    3. list of first level item 2
         1. this is nested list of second level
-        2. element 1
-        3. element 2
-    4. element 3
-    5. element 4
-2. element 1
-3. element 2
+        2. nested list of second level item 1
+        3. nested list of second level item 2
+    4. list of first level item 3
+    5. list of first level item 4
+2. parent list item 1
+3. parent list item 2
 4. the end of numbered list
 
 ### Links
