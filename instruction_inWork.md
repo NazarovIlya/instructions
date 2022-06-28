@@ -43,6 +43,7 @@ Using "######" for title of 6 level
 ### Blockquote
 
 Citation blocks are created using the symbol >
+
 > This is a blockquote. It is usually rendered indented and with a different background color.
 
 ### Lists
@@ -86,6 +87,13 @@ Use - or \* to create a buletted list:
 -   For an article to which a link to an article is added in a subdirectory of the parent directory of the current directory use: \[link text\]\(../directory/article-name.md\)
 
 ### Images
+
+Use the structer:
+\!\["alt text"\]\("folderPath"\)
+
+Examples:
+\!\[alt text for image\]\(Introduction.png\)
+\!\[alt text for image\]\(../images/Introduction.png\)
 
 **_Also see [guide for Markdown](https://docs.microsoft.com/ru-ru/contribute/markdown-reference)_**
 
