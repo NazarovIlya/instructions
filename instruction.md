@@ -48,8 +48,8 @@ First of all you have to execute the following global config commands, so enter:
 
 ### Branches
 
--   **git checkout** version_number
--   **git checkout master** return to the working commit
+-   **git checkout branch_name** branch_name
+-   **git checkout master** return to the master branch
 
 ## Several Global commands
 
