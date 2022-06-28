@@ -120,7 +120,7 @@ First of all you have to execute the following global config commands, so enter:
 -   **git checkout commit_hash** commit_hash
 -   **git checkout master** return to the master commit
 
-
+### Some
 
 ### Branches
 
