@@ -120,15 +120,7 @@ First of all you have to execute the following global config commands, so enter:
 -   **git checkout commit_hash** commit_hash
 -   **git checkout master** return to the master commit
 
-### Some useful commands
 
--   **git diff** to find out the difference between the current file and the committed file
--   **git log** to display the history of all commits with their hash codes
-
-*   **git log --graph** to display a tree of commits
-
--   **git status** to get information from git about its current state
--   **git --version** to get information from git about its current version
 
 ### Branches
 
