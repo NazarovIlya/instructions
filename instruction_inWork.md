@@ -135,6 +135,8 @@ First of all you have to execute the following global config commands, so enter:
 -   **git branch** to display the list of all branchers
 -   **git branch new_branch_name** to create a new branch
 
+*   **git checkout -b new_branch_name** to create and checkout to the new branch
+
 *   **git checkout branch_name** to go to another branch
 *   **git checkout master** to return to the master branch
 
