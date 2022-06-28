@@ -122,8 +122,6 @@ First of all you have to execute the following global config commands, so enter:
 -   **git merge another_branch_name** to merge the current branch with another one
 -   **git branch -d branch_name** to delete the branch
 
-###
-
 ## Several Global commands
 
 ### Enter:
