@@ -141,6 +141,9 @@ First of all you have to execute the following global config commands, so enter:
 *   **git checkout master** to return to the master branch
 
 -   **git merge another_branch_name** to merge the current branch with another one
+
+*   **git merge --abort** for abort merging
+
 -   **git branch -d branch_name** to delete the branch
 
 ## Several Global commands
