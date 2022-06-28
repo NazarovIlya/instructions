@@ -42,7 +42,7 @@ Using "######" for title of 6 level
 
 ### Blockquote
 
-Citation blocks are created using the symbol >
+Citation blocks are created using the symbol ">"
 
 > This is a blockquote. It is usually rendered indented and with a different background color.
 
