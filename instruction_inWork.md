@@ -105,9 +105,7 @@ First of all you have to execute the following global config commands, so enter:
 
 -   **git diff** to find out the difference between the current file and the committed file
 -   **git log** to display the history of all commits with their hash codes
-
 *   **git log --graph** to display a tree of commits
-
 -   **git status** to get information from git about its current state
 -   **git --version** to get information from git about its current version
 
@@ -115,10 +113,8 @@ First of all you have to execute the following global config commands, so enter:
 
 -   **git branch** to display the list of all branchers
 -   **git branch new_branch_name** to create a new branch
-
 *   **git checkout branch_name** to go to another branch
 *   **git checkout master** to return to the master branch
-
 -   **git merge another_branch_name** to merge the current branch with another one
 -   **git branch -d branch_name** to delete the branch
 
