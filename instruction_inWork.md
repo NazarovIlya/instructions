@@ -130,7 +130,7 @@ First of all you have to execute the following global config commands, so enter:
 -   **git status** to get information from git about its current state
 -   **git --version** to get information from git about its current version
 
-### Branches
+### Branches // ветки
 
 -   **git branch** to display the list of all branchers
 -   **git branch new_branch_name** to create a new branch
