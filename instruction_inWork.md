@@ -154,5 +154,3 @@ First of all you have to execute the following global config commands, so enter:
 -   **git config --global user.email "UserEmail"** to register in Git your email
 -   **git config --global --replace-all user.name "UserName"** to replace user's name
 -   **git config --global --replace-all user.email "UserEmail"** to replace user's email
-
-### Another one
