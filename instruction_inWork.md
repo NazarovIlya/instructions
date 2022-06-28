@@ -92,7 +92,21 @@ First of all you have to execute the following global config commands, so enter:
 
 ### Basic commands
 
+-   1. **Warning! Save the file.**
+-   2. **git add** to add a new commit
+-   3. **git commit -m "_comment_"** to create a new commit with massage of it
+-   **git commit -am "_comment_"** to add changes and create a new commit with massage of it
+-   **git add.** for adding all files
+-   **git commit --amend -m "_new commit_"** to edit commit
+-   **git checkout commit_hash** commit_hash
+-   **git checkout master** return to the master commit
+
 ### Some useful commands
+
+-   **git diff** to find out the difference between the current file and the committed file
+-   **git log** to display the history of all commits with their hash codes
+-   **git status** to get information from git about its current state
+-   **git --version** to get information from git about its current version
 
 ### Branches
 
@@ -101,3 +115,8 @@ First of all you have to execute the following global config commands, so enter:
 ## Several Global commands
 
 ### Enter:
+
+-   **git config --global user.name "UserName"** to register in Git under your name
+-   **git config --global user.email "UserEmail"** to register in Git your email
+-   **git config --global --replace-all user.name "UserName"** to replace user's name
+-   **git config --global --replace-all user.email "UserEmail"** to replace user's email
