@@ -74,6 +74,12 @@ Use - or \* to create a buletted list:
 
 ### Links
 
+-   Use the constraction: \[link text\]\(http://some_link\) to paste the link
+-   For an article that adds a link to another article in the same directory use: \[link text\]\(article-name.md\)
+-   For an article that adds a link to an article in the parent directory of the current directory use: \[link text\]\(../article-name.md\)
+-   For an article to which a link to an article is added in a subdirectory of the current directory use: \[link text\]\(directory/article-name.md\)
+-   For an article to which a link to an article is added in a subdirectory of the parent directory of the current directory use: \[link text\]\(../directory/article-name.md\)
+
 ### Images
 
 **_Also see [guide for Markdown](https://docs.microsoft.com/ru-ru/contribute/markdown-reference)_**
