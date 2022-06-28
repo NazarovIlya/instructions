@@ -115,7 +115,7 @@ First of all you have to execute the following global config commands, so enter:
 -   2. **git add** to add a new commit
 -   3. **git commit -m "_comment_"** to create a new commit with massage of it
 -   **git commit -am "_comment_"** to add changes and create a new commit with massage of it
--   **git add.** for adding all files
+-   **git add .** for adding all files (git_space_dot)
 -   **git commit --amend -m "_new commit_"** to edit commit
 -   **git checkout commit_hash** commit_hash
 -   **git checkout master** return to the master commit
