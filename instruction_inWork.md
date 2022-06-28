@@ -41,8 +41,6 @@ Using "######" for title of 6 level
 -   For using that fonts dont't put any space between font's simbols (\*, \_) and text: ^some text^, where ^ is font's simbol
 
 ### Blockquote
-Citation blocks are created using the symbol >
-> This is a blockquote. It is usually rendered indented and with a different background color.
 
 ### Lists
 
