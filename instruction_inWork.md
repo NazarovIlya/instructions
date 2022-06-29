@@ -154,3 +154,30 @@ First of all you have to execute the following global config commands, so enter:
 -   **git config --global user.email "UserEmail"** to register in Git your email
 -   **git config --global --replace-all user.name "UserName"** to replace user's name
 -   **git config --global --replace-all user.email "UserEmail"** to replace user's email
+
+### GitHub commands
+
+There are several variants
+#### to create a new repository on the command line:
+> 1. echo "# repo_1" >> README.md
+
+>2. git init
+
+>3. git add README.md
+
+>4. git commit -m "first commit"
+
+>5. git branch -M main
+
+>6. git remote add origin https://github.com/Accaunt/new_repository_name.git
+
+>7. git push -u origin main
+
+#### to push an existing repository from the command line:
+
+> 1. git remote add origin https://github.com/Accaunt/current_repository_name.git
+
+>2. git branch -M main
+
+>3. git push -u origin main
+
