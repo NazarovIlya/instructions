@@ -158,7 +158,7 @@ First of all you have to execute the following global config commands, so enter:
 ### GitHub commands
 
 There are several variants
-#### to create a new repository on the command line:
+#### to create a new repository on the command line you have to do:
 > 1. echo "# repo_1" >> README.md
 
 >2. git init
@@ -173,7 +173,7 @@ There are several variants
 
 >7. git push -u origin main
 
-#### to push an existing repository from the command line:
+#### to push an existing repository from the command line you have to do:
 
 >1. git remote add origin https://github.com/Accaunt/current_repository_name.git
 
