@@ -36,7 +36,7 @@ Using "######" for title of 6 level
 -   Using * or \_ for the *italic font\*
 -   Using \~\~ for a ~~strikethrough font~~
 
-*   Using \*\*\* or \*\*\_ for the **_bold strikethrough font_**
+*   Using \*\*\_ or \_\*\* for the **_bold italic font_**
 
 -   For using that fonts dont't put any space between font's simbols (\*, \_) and text: ^some text^, where ^ is font's simbol
 
@@ -175,7 +175,7 @@ There are several variants
 
 #### to push an existing repository from the command line:
 
-> 1. git remote add origin https://github.com/Accaunt/current_repository_name.git
+>1. git remote add origin https://github.com/Accaunt/current_repository_name.git
 
 >2. git branch -M main
 
