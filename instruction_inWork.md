@@ -106,7 +106,7 @@ Examples:
 1. **git config --global user.name "user's name"** for register in Git under your name
 2. **git config --global user.email <user's_email@example.com>** to register in Git your email
 
-    and also create a repository in the desired folder usng:
+    and also create a repository in the desired folder using:
 
 -   **git init** to initializing the local repository and tracking its files (you will have to enter _git add_ for start tracking each new file)
 
