@@ -4,7 +4,7 @@
 
 ## Markdown language syntax
 
-### Titles
+> ### Titles
 
 # title 1
 
@@ -30,7 +30,7 @@ Using "#####" for title of 5 level
 
 Using "######" for title of 6 level
 
-### Text
+> ### Text
 
 -   Using ** or \_\_ for the **bold font\*\*
 -   Using * or \_ for the *italic font\*
@@ -40,13 +40,13 @@ Using "######" for title of 6 level
 
 -   For using that fonts dont't put any space between font's simbols (\*, \_) and text: ^some text^, where ^ is font's simbol
 
-### Blockquote
+> ### Blockquote
 
 Citation blocks are created using the symbol >
 
 > This is a blockquote. It is usually rendered indented and with a different background color.
 
-### Lists
+> ### Lists
 
 Use - or \* to create a buletted list:
 
@@ -78,7 +78,7 @@ Use - or \* to create a buletted list:
 3. parent list item 2
 4. the end of numbered list
 
-### Links
+> ### Links
 
 -   Use the constraction: \[link text\]\(http://some_link\) to paste the link
 -   For an article that adds a link to another article in the same directory use: \[link text\]\(article-name.md\)
@@ -86,7 +86,7 @@ Use - or \* to create a buletted list:
 -   For an article to which a link to an article is added in a subdirectory of the current directory use: \[link text\]\(directory/article-name.md\)
 -   For an article to which a link to an article is added in a subdirectory of the parent directory of the current directory use: \[link text\]\(../directory/article-name.md\)
 
-### Images
+> ### Images
 
 Use the structer:
 \!\["alt text"\]\("folderPath"\)
@@ -101,16 +101,18 @@ Examples:
 
 ## Git's commands
 
-First of all you have to execute the following global config commands, so enter:
+> Чтобы начать работу с программой Git, вам необходимо выполнить следующие глобальные команды настройки. Для этого введите и выполните:
 
 1. **git config --global user.name "user's name"** for register in Git under your name
 2. **git config --global user.email <user's_email@example.com>** to register in Git your email
 
--   Enter following commands:
+    and also create a repository in the desired folder usng:
+
 -   **git init** to initializing the local repository and tracking its files (you will have to enter _git add_ for start tracking each new file)
 
-### Basic commands
+> ### Basic commands
 
+-   **git init** to initializing the local repository and tracking its files (you will have to enter _git add_ for start tracking each new file)
 -   1. **Warning! Save the file.**
 -   2. **git add** to add a new commit
 -   3. **git commit -m "_comment_"** to create a new commit with massage of it
@@ -120,7 +122,7 @@ First of all you have to execute the following global config commands, so enter:
 -   **git checkout commit_hash** commit_hash
 -   **git checkout master** return to the master commit
 
-### Some useful commands
+> ### Some useful commands
 
 -   **git diff** to find out the difference between the current file and the committed file
 -   **git log** to display the history of all commits with their hash codes
@@ -130,7 +132,7 @@ First of all you have to execute the following global config commands, so enter:
 -   **git status** to get information from git about its current state
 -   **git --version** to get information from git about its current version
 
-### Branches
+> ### Branches
 
 -   **git branch** to display the list of all branchers
 -   **git branch new_branch_name** to create a new branch
@@ -155,30 +157,30 @@ First of all you have to execute the following global config commands, so enter:
 -   **git config --global --replace-all user.name "UserName"** to replace user's name
 -   **git config --global --replace-all user.email "UserEmail"** to replace user's email
 
-### GitHub commands
+> ### GitHub commands
 
 There are several variants
 
-#### to create a new repository on the command line you have to do:
+> #### to create a new repository on the command line you have to do:
 
-> 1. echo "# repo_1" >> README.md
+1. echo "# repo_1" >> README.md
 
-> 2.  git init
+2. git init
 
-> 3.  git add README.md
+3. git add README.md
 
-> 4.  git commit -m "first commit"
+4. git commit -m "first commit"
 
-> 5.  git branch -M main
+5. git branch -M main
 
-> 6.  git remote add origin https://github.com/Accaunt/new_repository_name.git
+6. git remote add origin https://github.com/Accaunt/new_repository_name.git
 
-> 7.  git push -u origin main
+7. git push -u origin main
 
-#### to push an existing repository from the command line you have to do:
+> #### to push an existing repository from the command line you have to do:
 
-> 1.  git remote add origin https://github.com/Accaunt/current_repository_name.git
+1.  git remote add origin https://github.com/Accaunt/current_repository_name.git
 
-> 2.  git branch -M main
+2.  git branch -M main
 
-> 3.  git push -u origin main
+3.  git push -u origin main
