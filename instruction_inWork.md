@@ -101,7 +101,7 @@ Examples:
 
 ## Git's commands
 
-> Чтобы начать работу с программой Git, вам необходимо выполнить следующие глобальные команды настройки. Для этого введите и выполните:
+> Чтобы начать работу с программой Git, you need to run the following global configuration commands. To do this, enter and execute:
 
 1. **git config --global user.name "user's name"** for register in Git under your name
 2. **git config --global user.email <user's_email@example.com>** to register in Git your email
@@ -161,7 +161,7 @@ Examples:
 
 There are several variants
 
-> #### to create a new repository on the command line you have to do:
+> #### to create a new repository on the command line you have to enter and execute:
 
 1. echo "# repo_1" >> README.md
 
@@ -177,10 +177,21 @@ There are several variants
 
 7. git push -u origin main
 
-> #### to push an existing repository from the command line you have to do:
+> #### to push an existing repository from the command line you have to enter and execute:
 
 1.  git remote add origin https://github.com/Accaunt/current_repository_name.git
 
 2.  git branch -M main
 
 3.  git push -u origin main
+
+### Interaction with a remote repository. You can use
+
+* **git clone remote_repository_URL** to download remote version of the necessery repository
+>The git clone is a composite command: it not only
+downloads all the changes, but also tries to merge
+all the branches on the local computer and in
+the remote repository.
+*   **git pull** to download all the changes from the remote repository and automatically merge with current local version
+*   **git push** to upload current local version of the repository to remote repository
+>Authorization required on the remote repository
