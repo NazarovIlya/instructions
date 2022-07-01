@@ -198,5 +198,3 @@ There are several variants
 -   **git pull** to download all the changes from the remote repository and automatically merge with current local version
 -   **git push** to upload current local version of the repository to remote repository
     > Authorization required on the remote repository
-
-> #TEST
