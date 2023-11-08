@@ -22,6 +22,8 @@
 
 - И обращаться уже по localhost:XXXX
 
+- Сам docker-compose.yml можно [взять отюда](resource/docker-compose.yml)
+
 [Немного о Docker](https://t.me/iksergeyru/40)
 
 [Побольше слов о контейнеризации](https://www.youtube.com/playlist?list=PLU2ftbIeotGoGFC_2lj-OplT_cItXfu48)
