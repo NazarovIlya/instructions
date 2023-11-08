@@ -1,0 +1,54 @@
+version: '1.0'
+services:
+  db:
+    container_name: 'local-wordpress-db'
+    image: 'mysql:5.7.22'
+    restart: always
+    volumes:
+      - './data/mysql:/var/lib/mysql'
+    ports:
+      - 18766:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: somewordpress
+      MYSQL_DATABASE: guider
+      MYSQL_USER: guider_user
+      MYSQL_PASSWORD: secretsecret
+    networks:
+      - guider_network
+  wordpress:
+    container_name: 'local-wordpress'
+    restart: always
+    depends_on:
+      - db
+    image: 'wordpress:latest'
+    ports:
+      - '8081:80'
+    environment:
+      WORDPRESS_DB_HOST: 'db:3306'
+      WORDPRESS_DB_USER: guider_user
+      WORDPRESS_DB_PASSWORD: secretsecret
+      WORDPRESS_DB_NAME: guider
+    volumes:
+      - "./wordpress:/var/www/html"
+      - "./plugins:/var/www/html/wp-content/plugins"
+    networks:
+      - guider_network
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: 'phpmyadmin'
+    links:
+      - db
+    ports:
+      - 8080:80
+    environment:
+      PMA_ARBITRARY: 1
+    networks:
+      - guider_network
+
+networks:
+  guider_network:
+    driver: bridge
+
+volumes:
+  dbdata:
+    driver: local
